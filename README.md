@@ -22,6 +22,14 @@ One hotkey. Zero subscriptions. Unlimited. Works with **Groq, OpenAI, Anthropic 
 
 <br/>
 
+### ⬇️ [Download Latest Release](https://github.com/MaximuxR93/GlimpseV1/releases/latest)
+
+[![Download](https://img.shields.io/badge/⬇︎%20Download%20Glimpse-v1.0.0-7F77DD?style=for-the-badge&logoColor=white)](https://github.com/MaximuxR93/GlimpseV1/releases/latest)
+
+<sub>No account needed · No backend · Just unzip and load</sub>
+
+<br/>
+
 ---
 
 </div>
@@ -33,6 +41,20 @@ Glimpse is a Chrome extension that reads the page you're on and gives you an AI-
 It slides in as a sidebar overlay on any page. Press **Alt+G**, get the insight, keep reading.
 
 Bring your own API key from any provider. No backend. No subscriptions. No limits.
+
+---
+
+## Install in 3 steps
+
+> No terminal needed. Just download and load.
+
+**1.** Click the download button above → download `glimpse-extension.zip`
+
+**2.** Unzip it anywhere on your computer
+
+**3.** Go to `chrome://extensions` → enable **Developer Mode** (top right) → click **Load unpacked** → select the unzipped folder
+
+Done. The Glimpse eye icon appears on every page.
 
 ---
 
@@ -108,31 +130,6 @@ Word count, estimated read time, compression ratio, and generation time shown on
 
 ---
 
-## Install (dev build)
-
-```bash
-# 1. Clone
-git clone https://github.com/MaximuxR93/GlimpseV1.git
-cd GlimpseV1/pagepal-extension
-
-# 2. Install deps
-npm install
-
-# 3. Build
-npm run build
-```
-
-Load in Chrome:
-
-1. Go to `chrome://extensions`
-2. Enable **Developer mode** (top-right toggle)
-3. Click **Load unpacked**
-4. Select the `dist/` folder
-
-The Glimpse eye icon appears in your toolbar and as a floating button on every page.
-
----
-
 ## Get an API key
 
 | Provider | Free tier | Link |
@@ -143,6 +140,21 @@ The Glimpse eye icon appears in your toolbar and as a floating button on every p
 | OpenRouter | Free models available | [openrouter.ai/keys](https://openrouter.ai/keys) |
 
 On first launch, Glimpse walks you through setup. Keys are stored locally — never shared.
+
+---
+
+## Build from source
+
+Only needed if you want to modify the code.
+
+```bash
+git clone https://github.com/MaximuxR93/GlimpseV1.git
+cd GlimpseV1/pagepal-extension
+npm install
+npm run build
+```
+
+Then load the `dist/` folder as an unpacked extension.
 
 ---
 
@@ -179,27 +191,6 @@ All AI calls go **directly from your browser to your chosen provider** — no ba
 | Shadow DOM isolation | react-shadow |
 | AI providers | Groq · OpenAI · Anthropic · OpenRouter |
 | Key storage | `chrome.storage.local` + `localStorage` fallback |
-
----
-
-## Project structure
-
-```
-GlimpseV1/
-├── pagepal-extension/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Sidebar.tsx       # Main UI — summary, chat, highlight, history, settings
-│   │   ├── content/
-│   │   │   └── index.tsx         # Content script — page extraction + sidebar mount
-│   │   └── index.css
-│   ├── public/
-│   │   └── manifest.json
-│   └── vite.config.ts
-├── assets/                       # Screenshots
-└── backend/                      # Optional FastAPI dev server (not required)
-    └── main.py
-```
 
 ---
 
