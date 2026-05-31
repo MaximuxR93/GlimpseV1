@@ -38,39 +38,44 @@ Bring your own API key from any provider. No backend. No subscriptions. No limit
 
 ## Screenshots
 
-**Sidebar on NASA's Black Holes page — summary generated in 1.1s**
+<div align="center">
 
-![Glimpse sidebar overlay on NASA](pagepal-extension/src/assets/ACEEB552-B88E-4C25-869B-D97F59FB8E74.png)
+**Live on NASA's Black Holes page — sidebar generated in 1.1s**
 
-<br/>
+<img src="assets/ACEEB552-B88E-4C25-869B-D97F59FB8E74.png" width="100%" />
 
-**Summary tab — TL;DR, key insights, data points, caveats, and smart follow-up suggestions**
+<br/><br/>
 
-![Summary tab](pagepal-extension/src/assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png" width="260" /><br/>
+      <sub><b>Summary tab</b> — TL;DR, key insights, data points & caveats</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png" width="260" /><br/>
+      <sub><b>Chat tab</b> — ask anything, grounded strictly in the page</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png" width="260" /><br/>
+      <sub><b>Highlight & Ask</b> — select text, get instant context</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png" width="260" /><br/>
+      <sub><b>Model Settings</b> — switch provider & model on the fly</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png" width="260" /><br/>
+      <sub><b>Recent Analyses</b> — locally stored reading history</sub>
+    </td>
+  </tr>
+</table>
 
-<br/>
-
-**Chat tab — ask anything, answers grounded strictly in the page**
-
-![Chat tab](pagepal-extension/src/assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png)
-
-<br/>
-
-**Highlight & Ask — select any text on the page, instantly ask about it**
-
-![Highlight and Ask](pagepal-extension/src/assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png)
-
-<br/>
-
-**Recent Analyses — your reading history, locally stored**
-
-![Recent Analyses](pagepal-extension/src/assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png)
-
-<br/>
-
-**Model Settings — switch provider and model on the fly**
-
-![Model Settings](pagepal-extension/src/assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png)
+</div>
 
 ---
 
@@ -154,8 +159,8 @@ Alt+G opens the Glimpse sidebar
 AI call → structured analysis
   TL;DR · Key Insights · Data · Caveats · Follow-up suggestions
       ↓
-Chat tab → full Q&A grounded in page content
-Highlight & Ask → instant context on selected text
+Chat tab        → full Q&A grounded in page content
+Highlight & Ask → instant context on any selected text
 Recent Analyses → local history of every page you've glimpsed
 ```
 
@@ -191,7 +196,7 @@ GlimpseV1/
 │   ├── public/
 │   │   └── manifest.json
 │   └── vite.config.ts
-├── assets/                       # Screenshots for README
+├── assets/                       # Screenshots
 └── backend/                      # Optional FastAPI dev server (not required)
     └── main.py
 ```
@@ -214,7 +219,7 @@ GlimpseV1/
 - All AI calls go directly from browser → provider API
 - No telemetry, no analytics, no backend receiving your data
 - `.env` files are gitignored — never commit secrets
-- Keys are auto-cleared if a 401 is returned
+- Keys are auto-cleared on 401
 
 ---
 
