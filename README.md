@@ -46,31 +46,31 @@ Bring your own API key from any provider. No backend. No subscriptions. No limit
 
 **Summary tab — TL;DR, key insights, data points, caveats, and smart follow-up suggestions**
 
-![Summary tab](assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png)
+![Summary tab](pagepal-extension/src/assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png)
 
 <br/>
 
 **Chat tab — ask anything, answers grounded strictly in the page**
 
-![Chat tab](assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png)
+![Chat tab](pagepal-extension/src/assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png)
 
 <br/>
 
 **Highlight & Ask — select any text on the page, instantly ask about it**
 
-![Highlight and Ask](assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png)
+![Highlight and Ask](pagepal-extension/src/assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png)
 
 <br/>
 
 **Recent Analyses — your reading history, locally stored**
 
-![Recent Analyses](assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png)
+![Recent Analyses](pagepal-extension/src/assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png)
 
 <br/>
 
 **Model Settings — switch provider and model on the fly**
 
-![Model Settings](assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png)
+![Model Settings](pagepal-extension/src/assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png)
 
 ---
 
