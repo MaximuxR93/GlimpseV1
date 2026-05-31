@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+
+  "name": "PagePal",
+
+  "version": "1.0.0",
+
+  "description": "AI sidebar extension",
+
+  "permissions": ["storage", "activeTab"],
+
+  "host_permissions": ["<all_urls>"],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/content.tsx"]
+    }
+  ],
+
+  "action": {
+    "default_title": "PagePal"
+  }
+}
