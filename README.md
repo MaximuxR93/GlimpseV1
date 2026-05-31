@@ -40,7 +40,7 @@ Bring your own API key from any provider. No backend. No subscriptions. No limit
 
 **Sidebar on NASA's Black Holes page — summary generated in 1.1s**
 
-![Glimpse sidebar overlay on NASA](assets/ACEEB552-B88E-4C25-869B-D97F59FB8E74.png)
+![Glimpse sidebar overlay on NASA](pagepal-extension/src/assets/ACEEB552-B88E-4C25-869B-D97F59FB8E74.png)
 
 <br/>
 
