@@ -49,27 +49,27 @@ Bring your own API key from any provider. No backend. No subscriptions. No limit
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png" width="260" /><br/>
+      <img src="pagepal-extension/src/assets/4DF24A53-1B0B-484E-BFB1-0B20C6D0D576.png" width="260" /><br/>
       <sub><b>Summary tab</b> — TL;DR, key insights, data points & caveats</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png" width="260" /><br/>
+      <img src="pagepal-extension/src/assets/71952EBF-2BA7-4B85-AFDF-57913E16DA23.png" width="260" /><br/>
       <sub><b>Chat tab</b> — ask anything, grounded strictly in the page</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png" width="260" /><br/>
+      <img src="pagepal-extension/src/assets/77BEEA62-AA1E-4A78-816F-0969AD41BDBC.png" width="260" /><br/>
       <sub><b>Highlight & Ask</b> — select text, get instant context</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png" width="260" /><br/>
+      <img src="pagepal-extension/src/assets/9A4F2C2F-C3E3-48E2-BA1B-A65B93AE5008.png" width="260" /><br/>
       <sub><b>Model Settings</b> — switch provider & model on the fly</sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png" width="260" /><br/>
+      <img src="pagepal-extension/src/assets/4FED5E27-2153-4ED8-AAD8-3197F82798A4.png" width="260" /><br/>
       <sub><b>Recent Analyses</b> — locally stored reading history</sub>
     </td>
   </tr>
